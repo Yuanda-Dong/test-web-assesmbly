@@ -1,0 +1,191 @@
+name: Yuanda Dong
+source_code: github.com/kykosic/resume-as-code
+host_link: cv.kylekosic.dev
+email: kylekosic@gmail.com
+phone_number:
+  country_code: 1
+  number: 7082991185
+location: &atlanta
+  city: Atlanta
+  state: GA
+  country: US
+linkedin_profile: kylekosic
+github_profile: kykosic
+about_me: >
+  Full-stack site reliability engineer and data scientist with extensive
+  background in mathematics. Self-motivated learner and problem solver with an
+  affinity for automation, scalability, and distributed computing.
+education:
+- institution: Georgia Institute of Technology
+  major: Computer Science
+  description: Specialization in Machine Learning
+  period:
+    start: "2018-08-10T00:00:00Z"
+    end: "2019-12-15T00:00:00Z"
+  degree: MASTERS
+  location: *atlanta
+- institution: University of Alabama in Huntsville
+  major: Physics and Mathematics
+  description: Dual Major, Physics and Applied Mathematics
+  period:
+    start: "2011-08-20T00:00:00Z"
+    end: "2015-05-25T00:00:00Z"
+  degree: BACHELORS
+  location: &huntsville
+    city: Huntsville
+    state: AL
+    country: US
+experience:
+- title: Member of Technical Staff
+  organization: OpenAI
+  website: https://openai.com/
+  period:
+    start: "2021-04-12T00:00:00Z"
+  location: &sanfran
+    city: San Francisco
+    state: CA
+    country: US
+- title: Software Engineer, DevOps and Machine Learning
+  organization: OnScale
+  website: https://onscale.com/
+  period:
+    start: "2019-04-15T00:00:00Z"
+    end: "2021-04-07T00:00:00Z"
+  location: *atlanta
+  duty:
+  - description: Orchestrated physics solvers on multi-cloud HPCs via Kubernetes, enabling thousand-core simulations on-demand with end-to-end encryption.
+    tags: [boto3, Rusoto, Tokio, Serde, Kubernetes, Docker, Redis, Kafka, GKE, S3, EKS, DynamoDB, Lambda, Linux Bash]
+  - description: Responsible for building and maintaining CI/CD infrastructure for the microservice application stack.
+    tags: [Tornado, asyncio, Docker, Kubernetes, Prometheus, Helm, Jenkins, GitHub Actions, Git, Airflow, Redis, Kafka, Serverless, GKE, EKS, ECR, S3, CloudFormation, Linux Bash]
+  - description: Owner of the core simulation API framework, which has bindings to multiple programming languages and compiles generically for any physics solver.
+    tags: [PyO3, wasm-bindgen, bindgen, Syn, Quote, Serde, NumPy, asyncio, Tornado]
+  - description: Built machine learning models to optimize compute resource allocation for physics solvers, minimizing hardware costs.
+    tags: [pandas, NumPy, TensorFlow, scikit-learn, Kubernetes, Docker, Airflow, BigQuery]
+- title: Quantitative Analyst
+  organization: Lucena Research
+  website: https://lucenaresearch.com/
+  period:
+    start: "2018-12-20T00:00:00Z"
+    end: "2019-04-12T00:00:00Z"
+  location: *atlanta
+  duty:
+  - description: Lead research and development of machine learning applied to trading equity and commodity markets.
+    tags: [pandas, NumPy, TensorFlow, statsmodels, PyMC3, scikit-learn, Dask, Matplotlib, Jenkins, Git, Airflow, Redis, Cython, PostgreSQL]
+  - description: Worked directly with data providers and portfolio managers to discover new investment strategies leveraging alternative data sets.
+    tags: [pandas, NumPy, statsmodels, PySpark, Matplotlib, Airflow, EC2, EMR, Redshift, PostgreSQL]
+- title: Analytic Consultant, Data Science
+  organization: Wells Fargo
+  website: https://www.wellsfargo.com/
+  period:
+    start: "2018-09-01T00:00:00Z"
+    end: "2018-12-01T00:00:00Z"
+  location: *atlanta
+  duty:
+  - description: Identified high-risk customers from electronic communications using deep learning NLP models.
+    tags: [pandas, NumPy, PyTorch, scikit-learn, spaCy, nltk, Matplotlib, Linux Bash]
+  - description: Designed Spark data pipelines for cleaning, redacting, and lexing terabytes of unstructured text data.
+    tags: [pandas, scikit-learn, spaCy, nltk, PySpark, PostgreSQL]
+- title: Data Scientist
+  organization: IntegriChain
+  website: https://www.integrichain.com/
+  period:
+    start: "2017-08-01T00:00:00Z"
+    end: "2018-09-01T00:00:00Z"
+  location: &philadelphia
+    city: Philadelphia
+    state: PA
+    country: US
+  duty:
+  - description: Developed novel statistical models for providing visibility into pharmaceutical supply chains, driving millions in revenue per year.
+    tags: [pandas, NumPy, statsmodels, EC2, MySQL, Linux Bash, R]
+  - description: Designed NLP models to automate master data entity matching, saving thousands of analyst work hours.
+    tags: [pandas, NumPy, scikit-learn, EC2, Cython, MySQL, Linux Bash]
+  - description: Built models for predicting patient-level adherence gaps in high-value specialty pharma, allowing for proactive resolutions.
+    tags: [pandas, NumPy, scikit-learn, Apache Spark, AWS SDK, Docker, EC2, Batch, RDS, MySQL]
+- title: Senior Data Analyst
+  organization: IntegriChain
+  website: https://www.integrichain.com/
+  period:
+    start: "2016-02-01T00:00:00Z"
+    end: "2017-08-01T00:00:00Z"
+  location: *philadelphia
+  duty:
+  - description: Migrated on-prem data services to AWS, refactoring legacy ETL code into modern Python and Scala.
+    tags: [pandas, NumPy, boto3, Apache Spark, AWS SDK, Cats, Cats-effect, S3, EMR, Glue, RDS, Linux Bash, MySQL]
+skills:
+- category: Rust
+  tags:
+  - Actix
+  - Actix-web
+  - Rusoto
+  - Tokio
+  - Diesel
+  - Serde
+  - bindgen
+  - wasm-bindgen
+  - PyO3
+  - Syn
+  - Quote
+- category: Python
+  tags:
+  - pandas
+  - NumPy
+  - TensorFlow
+  - PyTorch
+  - statsmodels
+  - PyMC3
+  - scikit-learn
+  - spaCy
+  - nltk
+  - Dask
+  - PySpark
+  - flask
+  - Tornado
+  - asyncio
+  - boto3
+  - Matplotlib
+  - Plotly
+- category: Scala
+  tags:
+  - Apache Spark
+  - AWS SDK
+  - Cats
+  - Cats-effect
+- category: DevOps
+  tags:
+  - Docker
+  - Kubernetes
+  - Prometheus
+  - Helm
+  - Jenkins
+  - GitHub Actions
+  - Git
+  - Airflow
+  - Redis
+  - Kafka
+  - Serverless
+  - GKE
+- category: AWS
+  tags:
+  - EC2
+  - S3
+  - ECR
+  - EKS
+  - EMR
+  - Batch
+  - Glue
+  - DynamoDB
+  - Lambda
+  - CloudFront
+  - RDS
+  - Redshift
+  - CloudFormation
+  - SageMaker
+- category: Other
+  tags:
+  - Linux Bash
+  - Cython
+  - MySQL
+  - PostgreSQL
+  - BigQuery
+  - R
